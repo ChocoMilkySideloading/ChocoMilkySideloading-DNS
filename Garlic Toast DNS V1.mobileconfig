@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <!-- First DNS Profile  -->
+        <dict>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
+                <key>ServerURL</key>
+                <string>https://dns.nextdns.io/ff9585/dns-query</string>
+                <key>SupplementalMatchDomains</key>
+                <array>
+                    <string>ocsp.apple.com</string>
+                    <string>ocsp2.apple.com</string>
+                    <string>revoke.apple.com</string>
+                    <string>blacklist.apple.com</string>
+                    <string>crl4.apple.com</string>
+                    <string>OTA.apple-main.com</string>
+                </array>
+            </dict>
+            <key>PayloadDisplayName</key>
+            <string>Garlic Toast Revoke Fix V1</string>
+            <key>PayloadIdentifier</key>
+            <string>com.khoinfixed.cloudflare.io</string>
+            <key>PayloadOrganization</key>
+            <string>ScriptKitten</string>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadUUID</key>
+            <string>nvidiafs-cloudflare-dns</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+        </dict>
+
+        <!-- Second DNS Profile  -->
+        <dict>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
+                <key>ServerURL</key>
+                <string>https://dns.nextdns.io/cd977a/dns-query</string>
+                <key>SupplementalMatchDomains</key>
+                <array>
+                    <string>oscp.apple.com</string>
+                    <string>oscp2.apple.com</string>
+                    <string>comm-main.ess.apple.com</string>
+                    <string>gdmf.apple.com</string>
+                    <string>axm-app.apple.com</string>
+                    <string>mesu.apple.com</string>
+                </array>
+            </dict>
+            <key>PayloadDisplayName</key>
+            <string>Garlic Toast Revoke Fix V2 AD blocker</string>
+            <key>PayloadIdentifier</key>
+            <string>com.khoinfixed.cloudfire.io</string>
+            <key>PayloadOrganization</key>
+            <string>ScriptKitten</string>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadUUID</key>
+            <string>khoin.dns.list.io</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+        </dict>
+    </array>
+
+    <key>PayloadDescription</key>
+    <string>DNS will block all Apple servers to make sure that you can sign apps for days on end</string>
+    <key>PayloadDisplayName</key>
+    <string>Garlic Toast DNS config profile</string>
+    <key>PayloadIdentifier</key>
+    <string>com.khoinlist.io</string>
+    <key>PayloadScope</key>
+    <string>User</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>Next-dns-profile</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>
