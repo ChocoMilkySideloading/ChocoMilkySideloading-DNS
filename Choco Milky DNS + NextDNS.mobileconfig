@@ -100,9 +100,9 @@
           <string>gdmf.apple.com</string>
           <string>axm-app.apple.com</string>
           <string>ocsp.int-x3.letsencrypt.org</string>
-		  <string>register.apptest.apple.com</string>
-		  <string>dev.apptest.apple.com</string>
-		  <string>pxdoland.cc</string>
+	  <string>register.apptest.apple.com</string>
+	  <string>dev.apptest.apple.com</string>
+	  <string>pxdoland.cc</string>
         </array>
       </dict>
       <key>PayloadDisplayName</key>
