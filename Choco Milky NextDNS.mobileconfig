@@ -36,7 +36,7 @@
       <key>PayloadIdentifier</key>
       <string>com.khoinfixed.nextdns.io</string>
       <key>PayloadOrganization</key>
-      <string>Choco Milky ✰| ChatGPT</string>
+      <string>Choco Milky ✰| ChatGPT ☁️</string>
       <key>PayloadType</key>
       <string>com.apple.dnsSettings.managed</string>
       <key>PayloadUUID</key>
@@ -48,7 +48,7 @@
   <key>PayloadDescription</key>
   <string>This DNS is made by ChocoMilkySideloading ✰ this is the best DNS as of now.</string>
   <key>PayloadDisplayName</key>
-  <string>Choco Milky Sideloading DNS 🍫| tweak by ChatGPT and ChocoMilkySideloading</string>
+  <string>Choco Milky Sideloading DNS 🍫| tweak by ChatGPT ☁️</string>
   <key>PayloadIdentifier</key>
   <string>com.khoinlist.io</string>
   <key>PayloadScope</key>
