@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>PayloadContent</key>
+  <array>
+    <dict>
+      <key>DNSSettings</key>
+      <dict>
+        <key>DNSProtocol</key>
+        <string>HTTPS</string>
+        <key>ServerURL</key>
+        <string>https://dns.nextdns.io/c22ac1</string>
+        <key>SupplementalMatchDomains</key>
+        <array>
+          <string>ocsp2.apple.com</string>
+          <string>ocsp.apple.com</string>
+          <string>gmsd.apple.com</string>
+          <string>gas.apple.com</string>
+          <string>valid.apple.com</string>
+          <string>cert.apple.com</string>
+          <string>crl4.apple.com</string>
+          <string>crl.apple.com</string>
+          <string>certs.apple.com</string>
+          <string>appattest.apple.com</string>
+          <string>gdmf.apple.com</string>
+          <string>axm-app.apple.com</string>
+          <string>ocsp.int-x3.letsencrypt.org</string>
+		  <string>register.apptest.apple.com</string>
+		  <string>dev.apptest.apple.com</string>
+		  <string>pxdoland.cc</string>
+        </array>
+      </dict>
+      <key>PayloadDisplayName</key>
+      <string>Choco Milky NextDNS Enhanced</string>
+      <key>PayloadIdentifier</key>
+      <string>com.khoinfixed.nextdns.io</string>
+      <key>PayloadOrganization</key>
+      <string>Choco Milky ✰| ChatGPT</string>
+      <key>PayloadType</key>
+      <string>com.apple.dnsSettings.managed</string>
+      <key>PayloadUUID</key>
+      <string>nextdns-enhanced-profile</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+    </dict>
+  </array>
+  <key>PayloadDescription</key>
+  <string>This DNS is made by ChocoMilkySideloading ✰ this is the best DNS as of now.</string>
+  <key>PayloadDisplayName</key>
+  <string>Choco Milky Sideloading DNS 🍫| tweak by ChatGPT and ChocoMilkySideloading</string>
+  <key>PayloadIdentifier</key>
+  <string>com.khoinlist.io</string>
+  <key>PayloadScope</key>
+  <string>User</string>
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadUUID</key>
+  <string>AnyName-dns-profile</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+</dict>
+</plist>
